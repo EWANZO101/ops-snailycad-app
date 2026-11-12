@@ -23,7 +23,10 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "cloud.opslabsystems.opssnailycad"
+      "package": "cloud.opslabsystems.opssnailycad",
+      "permissions": [
+        "android.permission.CAMERA"
+      ]
     },
     "web": {
       "output": "single",
@@ -52,6 +55,17 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "ec20ee01-ca3e-487a-bf25-0541c508080e"
+      }
+    },
+    "owner": "opslabs"
   }
 }
