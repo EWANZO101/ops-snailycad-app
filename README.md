@@ -15,6 +15,8 @@ account on that CAD.
 
 ## Status
 
+The full list of what's left, with checkboxes, is in [ROADMAP.md](ROADMAP.md).
+
 | Stage | What | State |
 | --- | --- | --- |
 | 1 | Start / join a community, QR + invite link, sign in (password, two-step code, temporary password), home, switch community, sign out | **done** |
